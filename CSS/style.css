@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.todo-container{
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+
+    
+}    
+
+#todoList{
+    list-style: none;
+}
+
+#todoList li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
